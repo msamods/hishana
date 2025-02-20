@@ -1,6 +1,6 @@
-# Hishana - WhatsApp Bot
+# PrimonProto - WhatsApp Bot
 
-Hishana is a versatile WhatsApp bot built with Node.js and the Baileys library. It offers a range of features for automation and enhanced group management, making your WhatsApp experience more efficient and enjoyable.
+PrimonProto is a versatile WhatsApp bot built with Node.js and the Baileys library. It offers a range of features for automation and enhanced group management, making your WhatsApp experience more efficient and enjoyable.
 
 ## Features
 
@@ -32,6 +32,7 @@ Hishana is a versatile WhatsApp bot built with Node.js and the Baileys library. 
 * **Edit Configurations:** Customize welcome, goodbye, and alive messages directly within WhatsApp.
 * **Auto-Updater:** Stay up-to-date with the latest features and improvements.
 
+
 ## Installation
 
 These instructions assume you have Node.js (version 16 or higher) and npm (or yarn) installed.
@@ -39,8 +40,8 @@ These instructions assume you have Node.js (version 16 or higher) and npm (or ya
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/msamods/Hishana.git
-   cd Hishana
+   git clone https://github.com/phaticusthiccy/PrimonProto.git
+   cd PrimonProto
    ```
 
 2. **Install dependencies:**
@@ -65,16 +66,16 @@ These instructions assume you have Node.js (version 16 or higher) and npm (or ya
 
    This will run the bot in the background using pm2.
 
-## Management Commands (Using PM2)
+##  Management Commands (Using PM2)
 
 * **View Logs:** `pm2 logs`  (Useful for debugging)
 * **Kill (Force Stop):** `pm2 kill`
 
 ## Usage
 
-Hishana uses handlers to trigger commands. The default handlers are ".", "/", and "!". You can customize these in the `database.json` file. For example, to use the "!alive" command, send "!alive" in a WhatsApp chat where the bot is present.
+PrimonProto uses handlers to trigger commands.  The default handlers are ".", "/", and "!".  You can customize these in the `database.json` file.  For example, to use the "!alive" command, send "!alive" in a WhatsApp chat where the bot is present.
 
-**Command List:** Use `!menu` (or your chosen handler + "menu") to see a complete list of available commands and their descriptions within WhatsApp. You can also use `!menu <command>` to get specific help for a single command.
+**Command List:**  Use `!menu` (or your chosen handler + "menu") to see a complete list of available commands and their descriptions within WhatsApp.  You can also use `!menu <command>` to get specific help for a single command.
 
 **All Commands:**
 
@@ -88,6 +89,7 @@ Hishana uses handlers to trigger commands. The default handlers are ".", "/", an
 * `!sticker` (reply to an image or sticker) - Converts images to stickers or stickers to images.
 * `!show` (reply to a view once message) - Reveals view once messages.
 
+
 **Group Administration:**
 
 * `!add <number>` - Adds a user to the group.
@@ -96,10 +98,11 @@ Hishana uses handlers to trigger commands. The default handlers are ".", "/", an
 * `!demote <number or reply>` - Demotes a user from admin.
 * `!mute <duration(optional)>` - Mutes the group. Provide duration like `!mute 1h` for 1 hour.
 * `!unmute` - Unmutes the group.
-* `!tagall <message(optional)>` - Tags all group members. If you provide a message, it will be included after the tags.
+* `!tagall <message(optional)>` - Tags all group members.  If you provide a message, it will be included after the tags.
 * `!tagadmin <message(optional)>` - Tags all group admins. If you provide a message, it will be included after the tags.
 * `!gmute` (reply to a user) - Globally mutes a user in all groups the bot is present.
 * `!ungmute` (reply to a user) - Globally unmutes a user.
+
 
 **Automation & Utilities:**
 
@@ -124,19 +127,20 @@ Hishana uses handlers to trigger commands. The default handlers are ".", "/", an
 
 ## Configuration
 
-The `database.json` file stores the bot's configuration. You can edit this file to customize various settings, including:
+The `database.json` file stores the bot's configuration.  You can edit this file to customize various settings, including:
 
-* **Handlers:** The prefixes used to trigger commands.
+* **Handlers:**  The prefixes used to trigger commands.
 * **Alive Message:** The message displayed when the `!alive` command is used.
-* **Welcome/Goodbye Messages:** Messages sent when users join or leave a group.
-* **Sudo Users:** Phone numbers (with country code) of users with sudo access.
+* **Welcome/Goodbye Messages:**  Messages sent when users join or leave a group.
+* **Sudo Users:**  Phone numbers (with country code) of users with sudo access.
 * **Work Type:** Set to "public" or "private" to control who can use the bot.
+
 
 ## Contributing
 
 Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
 
+
 ## License
 
 MIT License. See the [LICENSE](LICENSE) file for details.
-
