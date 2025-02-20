@@ -39,7 +39,7 @@ These instructions assume you have Node.js (version 16 or higher) and npm (or ya
 1. **Clone the repository:**
 
    ```bash
-   git clone [https://github.com/msamods/hishana](https://github.com/msamods/hishana).git
+   git clone https://github.com/msamods/hishana.git
    cd hishana
    ```
 
