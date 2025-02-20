@@ -39,8 +39,8 @@ These instructions assume you have Node.js (version 16 or higher) and npm (or ya
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/phaticusthiccy/HishanaSheff.git
-   cd HishanaSheff
+   git clone [https://github.com/msamods/hishana](https://github.com/msamods/hishana).git
+   cd hishana
    ```
 
 2. **Install dependencies:**
