@@ -1,4 +1,4 @@
-# PrimonProto - WhatsApp Bot
+# Hishana - WhatsApp Bot
 
 PrimonProto is a versatile WhatsApp bot built with Node.js and the Baileys library. It offers a range of features for automation and enhanced group management, making your WhatsApp experience more efficient and enjoyable.
 
